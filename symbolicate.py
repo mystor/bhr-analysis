@@ -4,6 +4,7 @@ import json
 import urllib2 # NOTE: Using this instead of requests as I can't install python packages on people.m.o
 import shutil
 
+#URL = 'https://symbols.dev.mozaws.net'
 URL = 'http://symbolapi.mozilla.org'
 
 DATE = sys.argv[1]
